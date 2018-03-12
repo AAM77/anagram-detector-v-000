@@ -16,7 +16,7 @@ class Anagram
 
     words.each do |word|
       if @word.length == word.length && @word.chars.sort == word.chars.sort
-          ANAGRAM << word
+        ANAGRAM << word
       end # if
     end # do
   end # method

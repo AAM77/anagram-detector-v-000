@@ -4,11 +4,11 @@ class Anagram
   ANAGRAM = []
 
   def initialize(words)
-    
+
   end
 
   def all
-    @@all
+    ANAGRAM
   end
 
 

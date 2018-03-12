@@ -19,11 +19,11 @@ class Anagram
         if (@word.length == word.length
           if @word.chars.sort == word.chars.sort)
             ANAGRAM << word
-          end
-        end
-      end
-    end
-  end
+          end # inner if
+        end # middle if
+      end # do
+    end # outer if
+  end # method
 
 
 end

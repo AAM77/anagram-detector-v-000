@@ -16,8 +16,8 @@ class Anagram
       ANAGRAM.clear
     else
       words.each do |word|
-        if (@word.length == word.length
-          if @word.chars.sort == word.chars.sort)
+        if @word.length == word.length
+          if @word.chars.sort == word.chars.sort
             ANAGRAM << word
           end # inner if
         end # middle if

@@ -16,6 +16,7 @@ class Anagram
       if @word.chars.sort == word.chars.sort
         return word
       end
+    end
   end
 
 

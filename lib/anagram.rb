@@ -1,9 +1,10 @@
 class Anagram
   attr_accessor :word
 
-  @@all = []
+  ANAGRAM = []
 
   def initialize(words)
+    
   end
 
   def all

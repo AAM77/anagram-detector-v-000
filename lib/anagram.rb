@@ -20,7 +20,7 @@ class Anagram
       end # if
     end # do
 
-  ANAGRAM 
+  ANAGRAM
   end # method
 
 

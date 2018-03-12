@@ -12,9 +12,15 @@ class Anagram
   end
 
   def match(words)
-    words.each do |word|
-      if (@word.length == word.length && @word.chars.sort == word.chars.sort)
-        ANAGRAM << word
+    if ANAGRAM.length > 1
+      ANAGRAM.clear
+    else
+      words.each do |word|
+        if (@word.length == word.length
+          if @word.chars.sort == word.chars.sort)
+            ANAGRAM << word
+          end
+        end
       end
     end
   end

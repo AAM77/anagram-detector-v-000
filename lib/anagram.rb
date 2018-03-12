@@ -5,6 +5,7 @@ class Anagram
 
   def initialize(word)
     @word = word
+    ANAGRAM.clear
   end
 
   def all

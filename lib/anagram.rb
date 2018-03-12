@@ -22,6 +22,5 @@ class Anagram
 
   ANAGRAM
   end # method
-
-
+  
 end

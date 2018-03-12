@@ -3,12 +3,12 @@ class Anagram
 
   @@all = []
 
-  def initialize
+  def initialize(words)
   end
 
   def all
     @@all
   end
 
-  
+
 end
